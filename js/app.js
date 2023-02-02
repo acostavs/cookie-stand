@@ -14,7 +14,7 @@ function storeHours() {
         tr.appendChild(td);
     }
     let td = document.createElement('td');
-    td.textContent = 'Daily Cookie Sales';
+    td.textContent = 'Daily Location Total';
     tr.appendChild(td);
     thead.appendChild(tr);
     hoursTable.appendChild(thead);
@@ -97,7 +97,7 @@ function footer() {
     let footerTable = document.querySelector('table');
     let tfoot = document.createElement('tfoot');
     let th = document.createElement('th');
-    th.textContent = 'Global Sales Per Hour: ';
+    th.textContent = 'Totals ';
     let tr = document.createElement('tr');
     tr.appendChild(th);
     let dailyGlobalTotal = 0;
