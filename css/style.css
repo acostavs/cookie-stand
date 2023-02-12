@@ -6,3 +6,33 @@ tr {
 th {
     text-align: center;
 }
+
+body {
+    background-color: aquamarine;
+}
+
+/* form {
+    display: grid;
+    grid-template-columns: 1fr 10% 1fr 40%;
+    grid-template-rows: 14rem 3rem 6rem 6rem 6rem;
+} */
+
+img {
+    height: 320px;
+    width: 320px;
+}
+
+button {
+
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+fieldset {
+    width: 1135px;
+}
+
+h1,
+h2 {
+    font-family: 'Pacifico', cursive;
+}
