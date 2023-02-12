@@ -20,6 +20,13 @@ body {
 img {
     height: 320px;
     width: 320px;
+    border: 2px solid black;
+}
+
+img.salmon {
+    position: absolute;
+    left: 40%;
+
 }
 
 button {
@@ -35,4 +42,29 @@ fieldset {
 h1,
 h2 {
     font-family: 'Pacifico', cursive;
+    color: red;
+}
+
+td {
+    font-family: sans-serif;
+
+}
+
+tr td {
+    color: orange;
+}
+
+label {
+    font-family: monospace;
+    font-size: medium;
+}
+
+legend,
+label,
+button {
+    color: darkmagenta;
+}
+
+a {
+    text-decoration: none;
 }
